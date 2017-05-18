@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:orientation="vertical"
+    tools:context="com.wjh.wojh.MainActivity">
+
+   <android.support.v4.view.ViewPager
+       android:layout_width="match_parent"
+       android:layout_height="0dp"
+       android:layout_weight="1"
+       android:id="@+id/vp">
+
+   </android.support.v4.view.ViewPager>
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="50dp"
+       android:background="#ffffff"
+       android:gravity="center">
+      <!--首页-->
+      <LinearLayout
+          android:layout_width="0dp"
+          android:layout_height="match_parent"
+          android:id="@+id/ll_shouye"
+          android:layout_weight="1"
+          android:gravity="center"
+          android:orientation="vertical">
+          <ImageView
+              android:layout_width="25dp"
+              android:layout_height="25dp"
+              android:id="@+id/shouye_img"
+              android:src="@mipmap/shouye_lan"/>
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:id="@+id/shouye_tv"
+             android:layout_marginTop="5dp"
+             android:text="首页"
+             android:textColor="#1BA9D2"/>
+
+      </LinearLayout>
+
+      <!--发布-->
+      <LinearLayout
+          android:layout_width="0dp"
+          android:layout_height="match_parent"
+          android:id="@+id/ll_fabu"
+          android:gravity="center"
+          android:layout_weight="1"
+          android:orientation="vertical">
+         <ImageView
+             android:layout_width="25dp"
+             android:layout_height="25dp"
+             android:id="@+id/fabu_img"
+             android:src="@mipmap/fabu"/>
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:id="@+id/fabu_tv"
+             android:text="发布"
+             android:layout_marginTop="5dp"
+             android:textColor="#979797"/>
+
+      </LinearLayout>
+
+      <!--我-->
+      <LinearLayout
+          android:layout_width="0dp"
+          android:layout_height="match_parent"
+          android:layout_weight="1"
+          android:gravity="center"
+          android:id="@+id/ll_wo"
+          android:orientation="vertical">
+         <ImageView
+             android:layout_width="25dp"
+             android:layout_height="25dp"
+             android:id="@+id/wo_img"
+             android:src="@mipmap/gerenzhongxin"/>
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:id="@+id/wo_tv"
+             android:layout_marginTop="5dp"
+             android:text="我"
+             android:textColor="#979797"/>
+
+      </LinearLayout>
+   </LinearLayout>
+</LinearLayout>
