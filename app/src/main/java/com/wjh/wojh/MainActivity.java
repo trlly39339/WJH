@@ -11,7 +11,7 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.wjh.wojh.adaper.Fragment_Adaper;
+
 
 import java.util.ArrayList;
 import java.util.List;

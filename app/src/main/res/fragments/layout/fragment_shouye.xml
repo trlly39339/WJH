@@ -6,7 +6,7 @@
     <!--导航栏-->
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="30dp"
+        android:layout_height="40dp"
         android:gravity="center_vertical"
         android:background="@mipmap/daohanglan">
         <!--城市选择-->
@@ -21,7 +21,9 @@
             android:layout_width="match_parent"
             android:layout_marginRight="10dp"
             android:gravity="center_vertical"
-            android:layout_height="20dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
             android:id="@+id/ll_sousuo"
             android:background="@drawable/yuanjiao">
             <ImageView
